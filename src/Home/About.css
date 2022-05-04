@@ -1,0 +1,32 @@
+.skills {
+  margin: 50px 0;
+}
+
+.skills-heading {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  padding: 10px;
+  color: #52abc4e1;
+}
+
+.skills-items,
+.skills-set {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 844px) {
+  .skills {
+    margin: 30px 0;
+  }
+  .skills-heading {
+    font-size: 18px;
+  }
+
+  .skills-items{
+    display: block;
+  }
+}

@@ -1,0 +1,38 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    font-size: 18px;
+    color: #2b6777;
+}
+
+.logo{
+    padding: 10px;
+}
+
+.talk{
+    border: 2px solid;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.7s smooth ease-in;
+    padding: 10px 30px;
+}
+
+.talk:hover{
+    background-color: #2b6777;
+    color: #ffffff;
+}
+
+@media (max-width: 844px) {
+    .navbar{
+        padding: 1.5rem 0;
+        font-size: 14px;
+    }
+    .logo{
+        padding: 10px 0;
+    }
+
+    .talk{
+        padding: 10px 20px;
+    }
+}
