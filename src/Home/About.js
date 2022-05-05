@@ -71,7 +71,7 @@ const About = () => {
         <div className="heading">I'm Sai, Nice to meet you.</div>
         <div className="description">
           I'm an illustrator, designer, and aspiring full stack developer. In
-          2021, I completed by gradutation in Computer Sceience and Engineering
+          2021, I completed by gradutation in Computer Science and Engineering
           with 8.75 cgpa. And currently working as a Full Stack developer
           (Apprenticeship) in Cognizant. When I'm not drawing, creating
           web-pages, and doing all my design-related interests, you'll find me
