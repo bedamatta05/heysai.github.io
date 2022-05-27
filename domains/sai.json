@@ -1,14 +1,13 @@
 {
+  "description": "Need a domain named (sai.is-a.dev) to use as personal portfolio.",
+  "repo": "https://github.com/bedamatta05/personal-portfolio",
   "owner": {
-    "username": "github-username",
-    "email": "",
-    "twitter": "https://twitter.com/heyysaiii"
+    "username": "bedamatta05",
+    "email": "saibedamatta@gmail.com"
   },
   "record": {
     "CNAME": "hey-sai.in",
-    "A": ["75.2.60.5"]
-  },
-  "domain": {
-    "name": "sai.is-a.dev"
-  } 
+    "A": ["75.2.60.5"],
+    "URL": "https://hey-sai.in/"
+  }
 }
