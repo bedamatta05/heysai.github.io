@@ -7,7 +7,7 @@ const Header = () => {
         <div className="header container">
             <div className="avatar-bg"></div>
             <div className="header-avatar"><img src={avatar} alt="avatar" /></div>
-            <div className="header-text">Aspiring Full-stack dev, Illustrator & Nerd</div>
+            <div className="header-text">Aspiring Full-stack dev, Illustrator & Werido.</div>
             <div className="header-sub-text">I build web-stuffs, watch trillers, manage social media pages and drive in the evenings.</div>
             </div>
     )

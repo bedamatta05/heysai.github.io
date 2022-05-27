@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "github-username",
+    "email": "",
+    "twitter": "https://twitter.com/heyysaiii"
+  },
+  "record": {
+    "CNAME": "hey-sai.in",
+    "A": ["75.2.60.5"]
+  }
+}
