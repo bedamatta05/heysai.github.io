@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import resume from "./documents/resume.pdf";
+// import resume from "./documents/resume.pdf";
 
 const Footer = () => {
   return (
@@ -38,11 +38,11 @@ const Footer = () => {
       </div>
 
       <div className="resume">
-        <a href={resume} download rel="Sai Swaroop Bedamatta Resume">
+        {/* <a href={resume} download rel="Sai Swaroop Bedamatta Resume">
           Download my Resume
-        </a>
+        </a> */}
       </div>
-      <div className="copyright">Made with &hearts; in React. &copy; 2022</div>
+      <div className="copyright">Made with &hearts; in React. &copy; 2023</div>
     </div>
   );
 };
