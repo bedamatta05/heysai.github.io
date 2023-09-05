@@ -2,10 +2,6 @@ import React from "react";
 import "./Resume.css";
 
 function Resume() {
-  function printResume() {
-    window.print();
-  }
-
   return (
     <div className="resume" style={{ textDecoration: "none" }}>
       {/* Header */}
@@ -18,6 +14,7 @@ function Resume() {
           <a
             href="https://saibedamatta.me"
             target="_blank"
+            rel="noreferrer"
             style={{ color: "#2b6777" }}
           >
             saibedamatta.me
@@ -148,6 +145,7 @@ function Resume() {
               <a
                 href="https://github.com/bedamatta05"
                 target="_blank"
+                rel="noreferrer"
                 style={{ color: "#2b6777" }}
               >
                 github.com/bedamatta05
@@ -158,6 +156,7 @@ function Resume() {
               <a
                 href="https://www.linkedin.com/in/heyysaiii"
                 target="_blank"
+                rel="noreferrer"
                 style={{ color: "#2b6777" }}
               >
                 linkedin.com/in/heyysaiii
@@ -170,8 +169,8 @@ function Resume() {
         <section className="content-link" style={{ fontSize: "16px" }}>
           <a
             href="https://drive.google.com/file/d/1NgMFc8bbt_Zr6Y8dXDrJXLpR8pYlWPGx/view?usp=sharing" /* Replace with the actual path to your PDF resume */
-            download="sai_swaroop_bedamatta_resume.pdf"
             target="_blank"
+            rel="noreferrer"
           >
             Download PDF <i className="fas fa-arrow-right"></i>
           </a>
