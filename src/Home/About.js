@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import Experience from "./Experience";
 
 const SkillSet = () => {
   return (
@@ -101,7 +102,7 @@ const SkillSet = () => {
           </div>
         </div>
       </div>
-      <div className="skills-heading">Projects, I've worked on -</div>
+      {/* <div className="skills-heading">Projects, I've worked on -</div> */}
     </>
   );
 };
@@ -113,7 +114,7 @@ const About = () => {
         <div className="heading">I'm Sai, Nice to meet you.</div>
         <div className="description">
           I'm an illustrator, designer, and aspiring full stack developer. In
-          2021, I completed by gradutation in Computer Science and Engineering
+          2021, I completed by graduation in Computer Science and Engineering
           with 8.75 cgpa. And currently working as a Full Stack developer. When
           I'm not drawing, creating web-pages, and doing all my design-related
           interests, you'll find me outside with my friends in a calm place,
@@ -121,6 +122,8 @@ const About = () => {
           social-media pages and drinking as much tea as physically possible.
         </div>
         <SkillSet />
+        <Experience />
+        <div className="skills-heading">Projects, I've worked on -</div>
       </div>
     </div>
   );

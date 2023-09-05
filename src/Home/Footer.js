@@ -36,12 +36,6 @@ const Footer = () => {
           <i class="fa-brands fa-linkedin"></i>
         </a>
       </div>
-
-      <div className="resume">
-        {/* <a href={resume} download rel="Sai Swaroop Bedamatta Resume">
-          Download my Resume
-        </a> */}
-      </div>
       <div className="copyright">Made with &hearts; in React. &copy; 2023</div>
     </div>
   );

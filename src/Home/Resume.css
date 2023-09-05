@@ -1,0 +1,113 @@
+/* Set a global font family */
+body {
+  background-color: #f7f7f7;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container for the resume content */
+.resume {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Center-align text in the header */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Header styles */
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #2b6777; /* Updated heading color */
+  padding-bottom: 10px; /* Add padding below heading */
+}
+
+header p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+/* Links without underlines */
+header a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+/* Main content styles */
+main {
+  margin-top: 20px;
+}
+
+/* Section heading styles */
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #2b6777; /* Updated heading color */
+  padding-top: 20px; /* Add padding above heading */
+}
+
+/* Unordered list styles */
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* List item styles */
+ul li {
+  margin-bottom: 10px; /* Increase space between lines */
+}
+
+/* Add responsiveness for smaller screens */
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 28px;
+  }
+
+  header p {
+    font-size: 14px;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 20px;
+    padding-top: 10px; /* Adjust padding for smaller screens */
+  }
+
+  ul {
+    margin-left: 10px;
+  }
+
+  ul li {
+    margin-bottom: 5px; /* Adjust space between lines for smaller screens */
+  }
+}
+
+/* Styles for the download and print resume section */
+.download-resume {
+  margin-top: 20px;
+}
+
+.download-button {
+  display: inline-block;
+  padding: 10px 10px;
+  background-color: #2b6777;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.download-button:hover,
+.print-button:hover {
+  opacity: 0.8;
+}

@@ -6,7 +6,7 @@ const Contact = () => {
     <div className="contact container">
       <div className="contact-heading">Let's Chat</div>
       <div className="contact-description">
-        Crypto, Russia-Ukrain War, COVID, Career, Trends or Tech... I'm open to
+        Cricket, Crypto, COVID, Career, Places, Politics, Trends or Tech... I'm open to
         discuss about everything. In case of any suggestions or queries, feel
         free to reach out to me.
       </div>
