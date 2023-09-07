@@ -168,7 +168,7 @@ function Resume() {
         {/* Download and Print Resume Section */}
         <section className="content-link" style={{ fontSize: "16px" }}>
           <a
-            href="https://drive.google.com/file/d/1NgMFc8bbt_Zr6Y8dXDrJXLpR8pYlWPGx/view?usp=sharing" /* Replace with the actual path to your PDF resume */
+            href="https://drive.google.com/file/d/1nnUwbhBxseJhavF_xs9nTO2Fa4jWr5Uw/view?usp=sharing" /* Replace with the actual path to your PDF resume */
             target="_blank"
             rel="noreferrer"
           >

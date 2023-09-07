@@ -37,7 +37,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="copyright">
-        Made with &hearts; in React. &copy; 2023, V2.0.1 
+        Made with &hearts; in React. &copy; 2023, V2.0.3
       </div>
     </div>
   );
