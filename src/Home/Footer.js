@@ -36,7 +36,9 @@ const Footer = () => {
           <i class="fa-brands fa-linkedin"></i>
         </a>
       </div>
-      <div className="copyright">Made with &hearts; in React. &copy; 2023</div>
+      <div className="copyright">
+        Made with &hearts; in React. &copy; 2023, V2.0.1 
+      </div>
     </div>
   );
 };

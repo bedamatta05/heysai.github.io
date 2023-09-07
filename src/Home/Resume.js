@@ -7,8 +7,8 @@ function Resume() {
       {/* Header */}
       <header>
         <h1>Sai Swaroop Bedamatta</h1>
-        <p>+91 8249675567 | saiswaroop.bedamatta@gmail.com</p>
-        <p>Khordha, Odisha, India, 752031</p>
+        <p>saiswaroop.bedamatta@gmail.com</p>
+        {/* <p>Khordha, Odisha, India, 752031</p> */}
         <p>
           Website:{" "}
           <a
