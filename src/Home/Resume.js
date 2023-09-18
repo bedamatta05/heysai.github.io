@@ -26,7 +26,7 @@ function Resume() {
       <main>
         {/* Professional Summary */}
         <section className="professional-summary">
-          <h2>JR. SOFTWARE ENGINEER (JAVA FULL STACK)</h2>
+          <h2>Objectives</h2>
           <p>
             Enthusiastic and skilled Software Developer with approximately 2
             years of experience in developing web applications. Proficient in
@@ -40,6 +40,7 @@ function Resume() {
         <section className="certifications">
           <h2>Professional Certifications</h2>
           <ul>
+            <li>AWS Certified Solutions Architect - Associate (Sept 2023)</li>
             <li>AWS Certified Cloud Practitioner (Sept 2022)</li>
             <li>FSE 1 - Cognizant Digital Honors Certification (Oct 2022)</li>
           </ul>
@@ -94,25 +95,23 @@ function Resume() {
           <h2>Expertise</h2>
           <ul>
             <li>
-              <strong>Languages:</strong> Java 8, SQL, DynamoDB
+              <strong>Languages:</strong> Java 8, JavaScript
             </li>
             <li>
-              <strong>Frameworks:</strong> Spring Boot, React JS
+              <strong>Frameworks:</strong> Spring Boot, Spring data JPA, Spring
+              Security, Hibernate, React JS
             </li>
             <li>
-              <strong>AWS Services:</strong> S3, Lambda, EC2, IAM, SNS, SQS, and
-              more
+              <strong>Database:</strong> MySQL, Dynamodb
             </li>
             <li>
-              <strong>Database Management:</strong> DBMS
+              <strong>Cloud:</strong> AWS
             </li>
             <li>
-              <strong>UI/UX:</strong> Proficient in creating user-centered
-              interfaces
+              <strong>Version Control:</strong> GitHub
             </li>
             <li>
-              <strong>Problem Solving:</strong> Strong analytical and
-              problem-solving skills
+              <strong>Others:</strong> Microservices, RestAPIs, Postman
             </li>
           </ul>
         </section>
@@ -168,7 +167,7 @@ function Resume() {
         {/* Download and Print Resume Section */}
         <section className="content-link" style={{ fontSize: "16px" }}>
           <a
-            href="https://drive.google.com/file/d/1nnUwbhBxseJhavF_xs9nTO2Fa4jWr5Uw/view?usp=sharing" /* Replace with the actual path to your PDF resume */
+            href="https://drive.google.com/file/d/11y_l5EUDP9Ixo-j9gm2rBzsKchqGnjiV/view?usp=sharing" /* Replace with the actual path to your PDF resume */
             target="_blank"
             rel="noreferrer"
           >

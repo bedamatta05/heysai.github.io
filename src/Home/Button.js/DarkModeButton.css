@@ -1,0 +1,26 @@
+/* DarkModeButton.css */
+.dark-mode-button {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  background-color: #2b6777;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.dark-mode-button i {
+  font-size: 20px;
+}
+
+.dark-mode-button.active {
+  background-color: #333;
+  transform: rotate(180deg);
+}
