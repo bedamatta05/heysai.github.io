@@ -84,7 +84,7 @@ function Resume() {
           <h2>Education</h2>
           <div className="education-item">
             <h3>B. Tech. in Computer Science and Engineering</h3>
-            <p>Government College of Engineering, Bhwanipatna (2021)</p>
+            <p>Government College of Engineering (2021)</p>
             <p>Honors Degree with a CGPA of 8.76</p>
           </div>
           {/* Add more education items */}
@@ -167,7 +167,7 @@ function Resume() {
         {/* Download and Print Resume Section */}
         <section className="content-link" style={{ fontSize: "16px" }}>
           <a
-            href="https://drive.google.com/file/d/11y_l5EUDP9Ixo-j9gm2rBzsKchqGnjiV/view?usp=sharing" /* Replace with the actual path to your PDF resume */
+            href="#" /* Replace with the actual path to your PDF resume */
             target="_blank"
             rel="noreferrer"
           >
@@ -180,3 +180,5 @@ function Resume() {
 }
 
 export default Resume;
+
+//https://drive.google.com/file/d/11y_l5EUDP9Ixo-j9gm2rBzsKchqGnjiV/view?usp=sharing
