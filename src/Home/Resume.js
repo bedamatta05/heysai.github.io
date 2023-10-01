@@ -84,7 +84,7 @@ function Resume() {
           <h2>Education</h2>
           <div className="education-item">
             <h3>B. Tech. in Computer Science and Engineering</h3>
-            <p>Government College of Engineering (2021)</p>
+            <p>Government College of Engineering, Bhuvaneswar (2021)</p>
             <p>Honors Degree with a CGPA of 8.76</p>
           </div>
           {/* Add more education items */}
